@@ -12,10 +12,12 @@ class ViewController: UIViewController {
     var screenRed = true
     
     func makeViewRed(){
-        self.view.backgroundColor = .green
+        self.view.backgroundColor = .yellow
     }
     func makeViewBlue(){
-        self.view.backgroundColor = .yellow    }
+        self.view.backgroundColor = .green
+        
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()
